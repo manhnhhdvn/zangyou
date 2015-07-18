@@ -1,0 +1,57 @@
+en:
+  layouts: 
+    header:
+      website: "Framgia eLearning"
+      home: "Home"
+      help: "Help"
+      log_in: "Log in"
+      log_out: "Log out"
+      setting: "Setting"
+      all_users: "All users"
+      sign_up: "Sign up"
+      profile: "Profile"
+      account: "Account"
+    footer:
+      website: "Framgia eLearning"
+      home: "Home"
+      help: "Help"
+    application:
+      title: "Fels"
+  static_pages:
+    home:
+      btn_words: "Words"
+      btn_lessons: "Lessons"
+  users:
+    new:
+      signup: "Sign up!"
+      btn_submit: "Create my account"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+    index:
+      h1index: "All users"
+  shared:
+    error_messages:
+      error_message: "Number of error: "
+      error: "error"
+  controllers:
+    users:
+      create:
+        flash_success: "Hello %{name}! Welcome to E-Learning system!"
+      show:
+        flash_danger: "Could not found this user"
+    sessions:
+      create:
+        flash_danger: "Invalid email/password combination"
+  sessions:
+    new:
+      login: "Log in"
+      email: "Email"
+      password: "Password"
+      btn_submit: "Log in"
+      signup: "Sign up now!"
+      new_user?: "New user?"
+    sessions:
+      create:
+        flash_danger: "Invalid email/password combination"
